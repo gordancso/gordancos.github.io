@@ -44,8 +44,8 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
   cursor: pointer;
-  background: #999;
-  color: #000;
+  background-color: #999;
+  color: #ffffff;
   border-radius: 3px;
   justify-content: center;
   position: relative;
