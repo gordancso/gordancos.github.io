@@ -111,7 +111,11 @@ footer div img {
   height: 65%;
 }
 
-
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
 
 
 /* photo gallery coding below */
