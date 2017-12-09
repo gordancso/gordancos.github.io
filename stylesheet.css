@@ -33,9 +33,9 @@ body {
   position: relative;
   float: left;
   margin-top: 65px;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%
+  width: 85%;
+  margin-left: 12.5%;
+  margin-right: 12.5%
   height: auto;
   margin-bottom: 70px;
   color: #D9D9D9;
@@ -88,8 +88,8 @@ footer div img {
 }
 
 #mainImage {
-  width: 80%;
-  height: 80%;
+  width: 85%;
+  height: 85%;
 }
 
 .middle table, th, td {
@@ -107,5 +107,5 @@ tr:hover {
 }
 
 .pastTable {
-  width: 100%;
+  width: 95%;
 }
