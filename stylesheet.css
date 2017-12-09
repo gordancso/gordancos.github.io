@@ -41,13 +41,14 @@ body {
 }
 
 button {
-  display: flex;
-  justify-content: center;
-  position: relative;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
-  cursor:pointer;
+  cursor: pointer;
+  background: #999;
+  color: #000;
+  border-radius: 3px;
+  justify-content: center;
+  position: relative;
 }
 
 .footer {
