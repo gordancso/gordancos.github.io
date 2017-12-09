@@ -1,6 +1,5 @@
 * {
   font-family: Georgia;
-
 }
 
 body {
@@ -75,7 +74,9 @@ li a:hover:not(.active) {
   display: flex;
   justify-content: center;
   position: relative;
-
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .footer {
@@ -111,16 +112,7 @@ footer div img {
   height: 65%;
 }
 
-button {
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
-}
-
-
 /* photo gallery coding below */
-
-
 /*
 #gallery {
   width: 500px;
