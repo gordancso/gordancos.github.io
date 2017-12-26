@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>GC</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- my CSS -->
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+
+
+  <body>
+
+<!-- header --->
+    <header>
+    </header>
+
+<!-- add a div above --->
+
+    <div class="customise" id="bigCover">
+      <div class="someTextHere">
+        <h1><strong>Gordan Chung</strong></h1>
+        <p><i>Always a learner.</i></p>
+      </div>
+    </div>
+
+<!-- first div --->
+    <div class="customise" id="aboutMe">
+      <div class="row justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/profile.jpg" alt="profile">
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h4 class="card-title"><strong>This is GORDAN.</strong></h4>
+            <hr>
+            <p class="card-text">Learning to be a developer and looing forward to build something funny and useful.</p>
+            <hr>
+            <p class="card-text">Currently participated in the Accelerate HK bootcamp.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Carousel to show pics instead of pagination --->
+<!-- NEED TO RETHINK!!!--->
+
+    <div class="customise"  id="pastMe">
+      <div class="someText">
+        <h1><strong>What I was doing in the past</strong></h1>
+        <hr>
+      </div>
+
+
+      <!-- The grid: thwo columns -->
+      <div class="container">
+        <div class="row rowStyle justify-content-center">
+          <div class="column education col-md-4 col-sm-5 col-xs-7" onclick="openTab('b1');">Education</div>
+          <div class="column work col-md-4 col-sm-5 col-xs-7" onclick="openTab('b2');">Work</div>
+        </div>
+      </div>
+      <!-- The expanding grid (hidden by default) -->
+
+      <div class="row justify-content-center">
+        <div id="b1" class="containerTab col-md-9 col-sm-10 col-xs-11">
+          <!-- If you want the ability to close the container, add a close button -->
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Master Degree</h5>
+              </div>
+              <small class="text-muted">Obtained master's degree in Operational Research and Risk Analysis in the Hong Kong Polytechnic University</small>
+              <hr>
+              <div class="list-group-footer">
+                <small class="text-muted year">6 years ago</small>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Bechelor Degree</h5>
+              </div>
+              <small class="text-muted">Obtained bachelor's degree in Industrial Engineering and Technology Management in the University of Hong Kong</small>
+              <hr>
+              <div class="list-group-footer">
+                <small class="text-muted year">2 years ago</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div id="b2" class="containerTab col-md-9 col-sm-10 col-xs-11">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Production Planning in Compass Technology Company Ltd</h5>
+              </div>
+              <small class="text-muted">Responsible for factory's production planning and material control.</small>
+              <hr>
+              <div class="list-group-footer">
+                <small class="text-muted year">2012 - 2015</small>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Intern, United Nations Development Programme</h5>
+              </div>
+              <small class="text-muted">Based in Beijing. Worked on service procurement.</small>
+              <hr>
+              <div class="list-group-footer">
+                <small class="text-muted year">2015 - 2016</small>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Production Executive, Tarte Cosmetics</h5>
+              </div>
+              <small class="text-muted">Responsible for production follow-ups with Korean/ Chinese suppliers</small>
+              <hr>
+              <div class="list-group-footer">
+                <small class="text-muted year">2016 - 2017</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="customise" id="projects">
+      <div class="someTextHere">
+        <h1>Project done <i>OR</i> on-going</h1>
+        <hr>
+        <p>As you can imagine, this webpage is my first project in the coding bootcamp.</p>
+        <p>But there should be more coming! The below table will be updated from time-to-time.</p>
+      </div>
+    </div>
+
+    <div class="customise" id="contact">
+      <div class="someTextHere">
+        <h1>You can find me thru..</h1>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <a href="https://gordancso.github.io/"><img src="icon/github_icon.png"></img><a>
+            <p>My Github</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <a href="https://www.instagram.com/gordancso/"><img src="icon/instagram_icon.png"></img><a>
+            <p>We can be friends!</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <a href="https://www.linkedin.com/in/gordanchung"><img src="icon/linkedin_icon.png"></img><a>
+            <p>My full profile</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <a href="mailto:gordan.chungsaion@gmail.com"><img src="icon/Mail_icon.png"></img><a>
+            <p>Send me a message!</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="someText">
+        <p>Please let me know your comment on this page so that I can improve and learn!</p>
+      </div>
+    </div>
+
+    <div id="anchor"></div>
+
+<!-- NAVBAR at the bottom--->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-bottom justify-content-between">
+      <div class="container">
+        <a class="navbar-brand" href="#bigCover">&copy;Gordan Chung 2017</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">Who am I?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pastMe">Past</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#putSomeShit">More about me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Find me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script>
+     //optional javascript here, thanks
+     // Hide all elements with class="containerTab", except for the one that matches the clickable grid column
+     function openTab(tabName) {
+         var i, x;
+         x = document.getElementsByClassName("containerTab");
+         for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+         }
+         document.getElementById(tabName).style.display = "block";
+     }
+
+    </script>
+  </body>
+</html>

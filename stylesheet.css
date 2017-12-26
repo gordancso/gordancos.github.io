@@ -1,0 +1,208 @@
+body * {
+  font-size: 1.1em;
+  line-height: 1.42857143;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.navbar {
+  font-size: 10px;
+  padding: 3px 5px;
+}
+
+.customise {
+  padding: 125px 50px;
+  display: block;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+#bigCover, #aboutMe, #projects {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.85;
+}
+
+#bigCover {
+  background-image: url('BG/bigCover.jpg');
+  min-height: 100%;
+  opacity:0.85;
+}
+
+#bigCover .someTextHere {
+  Color: #000000;
+  padding: 125px 0;
+}
+
+#bigCover .someTextHere h1 {
+  font-size: 64px;
+}
+
+#bigCover .someTextHere p {
+  font-size: 24px;
+}
+
+#aboutMe {
+  background-color: #000000;
+  color:#FFFFFF;
+  background-image: url('BG/bgimg2.jpg');
+  min-height: 100%;
+}
+
+#aboutMe hr{
+  border-color: #FFFFFF;
+}
+
+.card-title, .card-text {
+  color: #000000;
+  font-size: 16px;
+}
+
+.card-body {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#pastMe {
+  min-height: 100%;
+}
+
+#projects {
+  background-color: #000000;
+  background-image: url('BG/bgimg6.jpg');
+  min-height: 100%;
+}
+
+#projects hr{
+  border-color: #000000;
+}
+
+#projects .someTextHere {
+  Color: #000000;
+}
+
+#contact {
+  min-height: 100%;
+}
+
+#contact .container .row a img {
+  width:80px;
+  height:80px;
+}
+
+#contact .container .row a p {
+  font-size: 16px;
+}
+
+.someText {
+  font-size: 16px;
+}
+
+#contact .container .row div img:hover {
+  animation: shake 0.4s;
+  animation-iteration-count: 2;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  33% { transform: translate(-1px, -2px) rotate(-1deg); }
+  66% { transform: translate(-3px, 0px) rotate(1deg); }
+  100% { transform: translate(3px, 2px) rotate(0deg); }
+}
+
+#anchor {
+  padding-bottom: 40px;
+}
+
+hr {
+  max-width: 60px;
+  border-color: #ABABAB;
+  border-width: 2px;
+}
+
+
+
+
+
+/* The grid: Three equal columns that floats next to each other */
+.rowStyle {
+  padding:25px 0px;
+}
+
+.column {
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+    min-width: 100px;
+}
+
+.education {
+  background-image: url("BG/edu.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.70;
+  min-height: 100%;
+}
+
+.work {
+  background-image: url("BG/work.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.70;
+  min-height: 100%;
+}
+
+#b1 {
+  display: none;
+}
+
+#b2 {
+  display: none;
+}
+
+.list-group {
+  padding: 20px 10px;
+}
+
+.list-group-item{
+  font-size: 14px;
+}
+
+.containerTab {
+    padding: 10px 10px;
+    color: white;
+    border: #676767 dashed 0.5px;
+    border-radius: 5px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    float: right;
+    color: black;
+    font-size: 10px;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-family: Verdana,sans-serif;
+
+}
