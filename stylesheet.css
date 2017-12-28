@@ -24,11 +24,13 @@ html {
 
 #bigCover, #aboutMe, #projects {
   position: relative;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 0.85;
+  -webkit-background-size: cover;
 }
 
 #bigCover {
