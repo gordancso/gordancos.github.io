@@ -35,7 +35,7 @@ html {
 
 #bigCover {
   background-image: url('BG/bigCover.jpg');
-  height: 100vh;
+  min-height: 100vh;
   opacity:0.85;
 }
 
@@ -56,7 +56,7 @@ html {
   background-color: #000000;
   color:#FFFFFF;
   background-image: url('BG/bgimg2.jpg');
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 #aboutMe hr{
@@ -74,7 +74,7 @@ html {
 }
 
 #pastMe {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 #projects {
