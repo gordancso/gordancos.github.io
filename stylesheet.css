@@ -5,12 +5,21 @@ body * {
 }
 
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
 }
 
 .navbar {
   font-size: 10px;
   padding: 3px 5px;
+}
+
+.navbar-brand {
+  font-size: 14px;
 }
 
 .customise {
@@ -31,8 +40,6 @@ html {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100vh;
-  opacity: 0.85;
   z-index: -100;
 }
 
@@ -42,11 +49,10 @@ html {
     }
 }
 
-
 #bigCover {
   background-image: url('BG/bigCover.jpg');
-  min-height: 100%;
-  opacity:0.85;
+  height: 100vh;
+  opacity:0.95;
 }
 
 #bigCover .someTextHere {
@@ -66,7 +72,7 @@ html {
   background-color: #000000;
   color:#FFFFFF;
   background-image: url('BG/bgimg2.jpg');
-  min-height: 100%;
+
 }
 
 #aboutMe hr{
@@ -84,34 +90,72 @@ html {
 }
 
 #pastMe {
-  min-height: 100%;
+
 }
 
 #projects {
   background-color: #000000;
   background-image: url('BG/bgimg6.jpg');
-  min-height: 100%;
 }
 
-#projects hr{
+#projects .row hr{
   border-color: #000000;
 }
 
-#projects .someTextHere {
+#projects .someTextHere h1 {
+  text-align: center;
   Color: #000000;
 }
 
+#projects .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  height: 100%;
+}
+
+.proj_Heading h1 {
+  text-align: center;
+  align-items: middle;
+  font-size: 18px;
+}
+
+.portfoliobox {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding:0;
+  max-width: 600px;
+  overflow:hidden;
+}
+
+.portfoliobox img {
+  vertical-align: middle;
+  border: 0;
+  width:100%;
+  position: relative;
+}
+
+.proj_pend img {
+  filter: grayscale(100%);
+}
+
+.port_active img:hover {
+  filter: contrast(150%) brightness(150%);
+  transition: all 0.5s ease-in;
+}
+
 #contact {
-  min-height: 100%;
+
 }
 
 #contact .container .row a img {
-  width:80px;
-  height:80px;
+  width:60px;
+  height:60px;
 }
 
 #contact .container .row a p {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .someText {
@@ -189,8 +233,12 @@ hr {
   padding: 20px 10px;
 }
 
-.list-group-item{
+.list-group-item {
   font-size: 14px;
+}
+
+.list-group-item h5 {
+  color: black
 }
 
 .containerTab {
