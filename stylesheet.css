@@ -35,7 +35,7 @@ html {
 
 #bigCover {
   background-image: url('BG/bigCover.jpg');
-  min-height: 100%;
+  height: 100vh;
   opacity:0.85;
 }
 
