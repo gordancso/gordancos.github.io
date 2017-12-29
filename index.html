@@ -191,10 +191,6 @@
       </div>
     </div>
 
-    <div class="scroll-progress-container">
-      <div class="scroll-progress"></div>
-    </div>
-
     <div id="anchor">
     </div>
 
@@ -245,18 +241,6 @@
      $('.navbar-collapse a').click(function(){
          $(".navbar-collapse").collapse('hide');
      });
-
-     $(document).ready(function() {
-          var docHeight = $(document).height(),
-          windowHeight = $(window).height(),
-          scrollPercent;
-
-          $(window).scroll(function() {
-            scrollPercent = $(window).scrollTop() / (docHeight - windowHeight) * 100;
-
-            $('.scroll-progress').width(scrollPercent + '%');
-          });
-    });
 
 
     </script>
