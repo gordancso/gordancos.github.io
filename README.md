@@ -1,14 +1,13 @@
-## About me webpage - Gordan Chung
-The webpage is made up of simple html/CSS/Javascript/bootstrap things.
+## ReadMe
+The webpage is made up of html/CSS/Javascript/bootstrap. I'm trying to make it as simple as it can.. 
 
-#### Styling 
+#### Styling.
 CSS/ HTML syntax are used for this purpose. 
+Parallax effect will be disabled on mobile device thru media query..
+Some of the icons/images will provide some hover effect.
 
-#### Responsive header
-Bootstrap is used (with drop list).
-
-#### photo album
-JS is used. Initialise the album with imageIndex = 0 which links to the imageArray with all file names. In each click, the onclick update the imageIndex (depends on "previous" or "next" is clicked) and get the file name in the imageArray. The descriptions of each photos are also put in an array, updated in a similar way as the imageArray does.
+#### Some other words.
+JS is used for click to display box part and the toggle-collapse.
 
 ### Please do not copy any data from this webpage.
 
